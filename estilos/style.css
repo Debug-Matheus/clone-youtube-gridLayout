@@ -107,7 +107,7 @@ div.variedades-container::-webkit-scrollbar{
     display: none; /* Chrome, Safari */
 }
 div.variedades-container span{
-    font-size: 20px;
+    font-size: 21px;
     color: #00000098;
     cursor: pointer;
     background-color: #eee;
