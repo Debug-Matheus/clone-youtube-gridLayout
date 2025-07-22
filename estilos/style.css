@@ -23,7 +23,7 @@ nav.navbar-container{
     grid-template: repeat(2, minmax(40px, auto)) / repeat(3, minmax(100px, auto));
     grid-auto-rows: minmax(40px, auto);
     padding: 0 10px;
-    margin-bottom: 25px;
+    margin-bottom: 22px;
 }
     
 img#icons-menu{
