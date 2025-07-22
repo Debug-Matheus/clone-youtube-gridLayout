@@ -11,17 +11,18 @@
     font-family: var(--fonte-padrao);
 }
 body{
-    width: 100vw;
-    height: 100vh;   
+    width: 100%;
+    min-height: 100vh;   
 }
 nav.navbar-container{
     width: 100%;
     height: 10vh;
     background-color: #fff;
     display: grid;
-    grid-template: repeat(4, minmax(40px, auto)) / repeat(3, minmax(100px, auto));
+    grid-template: repeat(2, minmax(40px, auto)) / repeat(3, minmax(100px, auto));
     grid-auto-rows: minmax(40px, auto);
     padding: 0 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
     
 img#icons-menu{
@@ -106,7 +107,7 @@ div.variedades-container{
     gap: 10px;
     display: flex;
     align-items: center;
-    scrollbar-width: none; /* Firefox */
+    scroll-behavior: smooth;/* Firefox */
 }
 div.variedades-container::-webkit-scrollbar{
     display: none; /* Chrome, Safari */
@@ -130,6 +131,14 @@ div.variedades-container button{
     font-size: 0.9rem;
     cursor: pointer;
     flex-shrink: 0; /* impede quebra de linha */
+}
+section.main-container{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template: repeat(2, minmax(40px, auto)) / repeat(3, minmax(100px, auto));
+    grid-auto-rows: minmax(40px, auto);
+    padding: 0 10px;
 }
     
 
