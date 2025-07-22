@@ -152,7 +152,7 @@ div.informacoes-recomendadas{
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 10px 0px;
+    padding: 10px 8px;
     width: 100%;
 }
 div.informacoes-recomendadas img{
