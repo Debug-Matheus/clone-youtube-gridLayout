@@ -107,7 +107,8 @@ div.variedades-container::-webkit-scrollbar{
     display: none; /* Chrome, Safari */
 }
 div.variedades-container button{
-background-color: #eee;
+  background-color: #eee;
+  color: black;
   border: none;
   padding: 0.5rem 0.7rem;
   border-radius: 6px;
