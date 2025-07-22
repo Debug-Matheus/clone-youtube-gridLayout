@@ -138,7 +138,7 @@ section.main-container{
     width: 100%;
     min-height: 100vh;
     display: grid;
-    grid-template: repeat(2, minmax(40px, auto)) / repeat(3, minmax(100px, auto));
+    grid-template: repeat(2, auto) / repeat(3,auto);
     grid-auto-rows: minmax(40px, auto);
 }
 div.main-item{
