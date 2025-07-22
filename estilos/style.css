@@ -12,7 +12,8 @@
 }
 body{
     width: 100%;
-    min-height: 100vh;   
+    min-height: 100vh;
+    overflow-x: hidden;   
 }
 nav.navbar-container{
     width: 100%;
@@ -174,7 +175,7 @@ div.informacoes-recomendadas span{
 }
 div.informacoes-recomendadas a:hover{
     text-decoration: underline;
-    
+
 }
 
 
