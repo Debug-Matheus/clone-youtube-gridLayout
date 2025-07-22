@@ -142,11 +142,9 @@ section.main-container{
 }
 div.main-item{
     grid-area: 1/1/2/4;
-    place-self: start end;
+    place-self: start start;
 }
-div.main-item img{
-    width: 100%;
-}
+
 
     
 
