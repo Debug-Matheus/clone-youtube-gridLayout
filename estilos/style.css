@@ -146,7 +146,7 @@ div.main-item{
     place-self: start start;
 }
 div.imagem-recomendada img.imagem-principal{
-    width: 100%;
+    width: 100vw;
 }
 div.informacoes-recomendadas{
     display: flex;
