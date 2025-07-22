@@ -133,7 +133,7 @@ div.variedades-container button{
     flex-shrink: 0; /* impede quebra de linha */
 }
 section.main-container{
-    width: 100%;
+    width: 100vw;
     min-height: 100vh;
     display: grid;
     grid-template: repeat(2, minmax(40px, auto)) / repeat(3, minmax(100px, auto));
