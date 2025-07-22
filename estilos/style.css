@@ -1,9 +1,14 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --fonte-padrao: 'Roboto', sans-serif;
+}
 /* Mobile First */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--fonte-padrao);
 }
 body{
     width: 100vw;
@@ -97,7 +102,7 @@ div.variedades-container{
     grid-area: 2/1/3/4;
     overflow-y: hidden;
     overflow-x: auto;
-    white-space: nowrap;
+    white-space: nowrap; /*Apredendo o espacamento */
     gap: 10px;
     display: flex;
     align-items: center;
@@ -117,14 +122,15 @@ div.variedades-container span{
     border-radius: 6px;
 }
 div.variedades-container button{
-  background-color: #eee;
-  color: black;
-  border: none;
-  padding: 0.5rem 0.7rem;
-  border-radius: 6px;
-  font-size: 0.9rem;
-  cursor: pointer;
-  flex-shrink: 0; /* impede quebra de linha */
+    font-weight: 500;
+    background-color: #eee;
+    color: black;
+    border: none;
+    padding: 0.5rem 0.7rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    flex-shrink: 0; /* impede quebra de linha */
 }
     
 
