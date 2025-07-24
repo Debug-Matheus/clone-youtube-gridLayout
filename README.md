@@ -4,7 +4,7 @@
 
 Este projeto foca em **dispositivos com telas grandes** (desktop), utilizando `@media screen and (min-width: 500px)` para ativar a sidebar interativa e a disposição em grid.
 
-[Clique aqui](https://youtube-gridlayout1.netlify.app/), para acessar o site do projeto.
+- [Clique aqui](https://youtube-gridlayout1.netlify.app/), para acessar o site do projeto.
 
 
 ## 🎨 Tecnologias utilizadas
