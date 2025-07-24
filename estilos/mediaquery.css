@@ -85,9 +85,11 @@
     }
     /* Main */
     div.imagem-recomendada{
+        
         min-width: 270px;
     }
     div.informacoes-recomendadas{
+        
         width: 270px;
         align-items: start;
     }
@@ -152,7 +154,7 @@
         height: 25px;
     }
     div.main-item{
-       
+        background-color: #cccccc13;
         grid-area: 1/2/6/6;
         display: flex;
         flex-flow: row wrap;
