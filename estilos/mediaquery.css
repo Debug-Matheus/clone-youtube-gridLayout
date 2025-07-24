@@ -94,7 +94,7 @@
         align-items: start;
     }
     div.imagem-recomendada img.imagem-principal{
-        max-width: 290px;
+        max-width: 270px;
         transition: all 0.2s ease-in-out;
     }
     div.imagem-recomendada img.imagem-principal:hover{
