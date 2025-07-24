@@ -37,6 +37,7 @@ div.logo-item{
 div.search-item input{
     display: none;
     transition: width 0.3s ease;
+    width: 100%;
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-radius: 20px 0 0 20px;
@@ -44,6 +45,7 @@ div.search-item input{
 }
 div.serch-item{
     padding: 3px 8px;
+    transition: width 0.3s ease;
 }
 div.search-item input[type="search"] {
   border: 1px solid #ccc;
@@ -134,12 +136,14 @@ div.variedades-container button{
     flex-shrink: 0; /* impede quebra de linha */
 }
 section.main-container{
-    width: 100%;
     min-height: 100vh;
     display: grid;
     grid-template: repeat(2, auto) / repeat(3,auto);
     grid-auto-rows: minmax(40px, auto);
     margin-bottom: 60px;
+}
+div.sidebar-item{
+    display: none;
 }
 div.main-item{
     grid-area: 1/1/2/4;
@@ -172,10 +176,7 @@ div.informacoes-recomendadas span{
     font-size: 12px;
     color: #0000008e;
 }
-div.informacoes-recomendadas a:hover{
-    text-decoration: underline;
 
-}
 section.rodape-container{
     display: grid;
     grid-template: repeat(1, minmax(40px, auto)) / repeat(3, minmax(100px, auto));

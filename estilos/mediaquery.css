@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 500px) {
+    /* Header */
+    nav.navbar-container {
+        padding: 5px 5px;
+        column-gap: 20px;
+        margin-bottom: 0;
+    }
+    div.logo-item{
+        margin-left: 10px;
+    }
+    #icons-menu{
+        display: block;
+    }
+    .active{
+        display: block;
+    }
+    div.search-item {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-column: 2 / 3;
+        align-items: center;
+        gap: 0;
+        padding: 6px;
+    }
+    div.search-item input {
+        display: inline-block;
+        width: 100%;
+        height: 40px;
+        padding: 6px 12px;
+        border-radius: 20px 0 0 20px;
+        border: 1px solid #ccc;
+        box-shadow: 1px 1px 5px inset rgba(0, 0, 0, 0.1);
+    }
+    div.search-item button {
+        display: inline-block;
+        height: 40px;
+        width: 50px;
+        border-radius: 0 20px 20px 0;
+        border: 1px solid #ccc;
+        border-left: none;
+        background-color: rgba(128, 128, 128, 0.11);
+    }
+
+    div.logo-item{
+        padding: 10px 10px;
+        margin-top: 5px;
+    }
+    img#icons-menu{
+        display: inline-block;    
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        margin-right: 10px;
+        
+    }
+    div.icons-item{
+        padding: 10px 0px;
+        justify-self: end;
+        margin-top: 1px;
+    }
+    div.icons-item span{
+        display: none;
+    }
+    svg#icons-lupa{
+        display: none;
+    }
+    div.icons-item svg{
+        width: 25px;
+        height: 25px
+    }
+    div.icons-item #icons-perfil{
+        display: inline-block;
+        width: 25px;
+        height: 25px
+    }
+    div.icons-item #icons-video{
+        display: inline-block;
+    }
+    
+    div.variedades-container{
+        display: none;
+    }
+    /* Main */
+    div.imagem-recomendada{
+        min-width: 270px;
+    }
+    div.informacoes-recomendadas{
+        width: 270px;
+        align-items: start;
+    }
+    div.imagem-recomendada img.imagem-principal{
+        max-width: 290px;
+        transition: all 0.2s ease-in-out;
+    }
+    div.imagem-recomendada img.imagem-principal:hover{
+        transform: scale(1.1);
+    }
+    div.informacoes-recomendadas h4{
+        margin-bottom: 5px;
+    }
+    div.informacoes-recomendadas img{
+        width: 35px;
+        height: 35px;
+    }
+    section.main-container{
+        grid-template: repeat(5,auto)/ repeat(5,auto);
+        grid-auto-rows: auto;
+    }
+    div.sidebar-item{
+        grid-area: 1/1/6/2;
+        min-width: 220px;
+        max-width: 220px;
+        background-color: white;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        transition: all 0.3s ease-in-out;
+        overflow: hidden;
+    }
+    .sidebar-item.collapsed .sidebar-text {
+        display: none;
+    }
+    .sidebar-item.collapsed {
+        min-width: 60px;
+        max-width: 60px;
+        padding: 10px 10px;
+        opacity: 0.9;
+    }
+    div.sidebar-icon{
+        display: flex;
+        padding: 10px 0px;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+    }
+    div.sidebar-icon:hover{
+        background-color: rgba(128, 128, 128, 0.11);
+        border-radius: 6px;
+
+    }
+    div.sidebar-icon a{
+        text-decoration: none;
+        color: #000000e1;
+        
+    }
+    div.sidebar-icon svg{
+        width: 25px;
+        height: 25px;
+    }
+    div.main-item{
+       
+        grid-area: 1/2/6/6;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: start;
+        column-gap: 60px;
+        row-gap: 40px;
+        padding: 20px;
+        padding-left: 70px;
+        width: 100%;
+    }
+    footer{
+        display: none;
+    }
+        
+}
+
