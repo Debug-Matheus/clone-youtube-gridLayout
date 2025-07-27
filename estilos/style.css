@@ -121,7 +121,7 @@ div.variedades-container span{
     cursor: pointer;
     background-color: #eee;
     border: none;
-    flex-shrink: 0; /* impede quebra de linha */
+    flex-shrink: 0; 
     padding: 0.5rem 0.7rem;
     border-radius: 6px;
 }
@@ -133,7 +133,7 @@ div.variedades-container button{
     border-radius: 6px;
     font-size: 0.9rem;
     cursor: pointer;
-    flex-shrink: 0; /* impede quebra de linha */
+    flex-shrink: 0; 
 }
 section.main-container{
     min-height: 100vh;
